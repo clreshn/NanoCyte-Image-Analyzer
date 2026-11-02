@@ -54,4 +54,11 @@ Make sure to review all overlays to ensure accurate nuclear identification and m
 6. DAPI background sigma: Smoothing parameter to subtract background in DAPI channel (default: 30)
 7. Otsu threshold: Scaling factor used to identify foreground pixels in DAPI image (default: 0.05)
 8. Minimum watershed distance: Minimum separation between local maxima used to generate watershed markers for separating adjacent/touching nuclei (default: 5)
-  
+
+## Example image output
+
+![Nuclear segmentation](images/nt1_dapi_segmentation.png)
+
+![Measurement radii](images/nt1_measurement_radii.png)
+
+![Combined overlay](images/nt1_combined_overlay.png)
